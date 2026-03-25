@@ -1,0 +1,64 @@
+name: Update vuln-list-redhat repo
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Update vuln-list-redhat
+    runs-on: ubuntu-latest
+    env:
+      VULN_LIST_DIR: "vuln-list-redhat"
+    steps:
+      # vuln-list-redhat dir uses more than 20GB of storage
+      - name: Maximize build space
+        uses: AdityaGarg8/remove-unwanted-software@90e01b21170618765a73370fcc3abbd1684a7793 # v5
+        with:
+          remove-android: 'true'
+          remove-dotnet: 'true'
+          remove-haskell: 'true'
+          remove-codeql: 'true'
+          remove-docker-images: 'true'
+          remove-large-packages: 'true'
+          remove-cached-tools: 'true'
+          remove-swapfile: 'true'
+
+      - name: Check out vuln-list-update
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          repository: ${{ github.repository_owner }}/vuln-list-update
+
+      - name: Check out vuln-list-redhat
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          repository: ${{ github.repository }}
+          path: ${{ env.VULN_LIST_DIR }}
+
+      - name: Set up Go
+        uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
+        with:
+          go-version-file: go.mod
+
+      - name: Setup github user email and name
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Compile vuln-list-update
+        run: go build -o vuln-list-update .
+
+      - if: always()
+        name: Red Hat OVALv2
+        run: ./scripts/update.sh redhat-oval "Red Hat OVAL v2"
+
+      - if: always()
+        name: Red Hat Security Data API
+        run: ./scripts/update.sh redhat "Red Hat Security Data API"
+
+      - if: always()
+        name: Red Hat CSAF VEX
+        run: ./scripts/update.sh redhat-csaf-vex "Red Hat CSAF VEX"
