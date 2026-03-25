@@ -1175,6 +1175,11 @@
       },
       {
         "Source": "CVE",
+        "RefID": "CVE-2023-54021",
+        "RefURL": "https://access.redhat.com/security/cve/CVE-2023-54021"
+      },
+      {
+        "Source": "CVE",
         "RefID": "CVE-2023-54022",
         "RefURL": "https://access.redhat.com/security/cve/CVE-2023-54022"
       },
@@ -1182,6 +1187,11 @@
         "Source": "CVE",
         "RefID": "CVE-2023-54028",
         "RefURL": "https://access.redhat.com/security/cve/CVE-2023-54028"
+      },
+      {
+        "Source": "CVE",
+        "RefID": "CVE-2023-54031",
+        "RefURL": "https://access.redhat.com/security/cve/CVE-2023-54031"
       },
       {
         "Source": "CVE",
@@ -1989,7 +1999,7 @@
         {
           "CveID": "CVE-2023-39198",
           "Cvss3": "7.5/CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
-          "Cwe": "CWE-366",
+          "Cwe": "CWE-416",
           "Impact": "moderate",
           "Href": "https://access.redhat.com/security/cve/CVE-2023-39198",
           "Public": "20230817"
@@ -3437,6 +3447,14 @@
           "Public": "20251224"
         },
         {
+          "CveID": "CVE-2023-54021",
+          "Cvss3": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+          "Cwe": "CWE-191",
+          "Impact": "low",
+          "Href": "https://access.redhat.com/security/cve/CVE-2023-54021",
+          "Public": "20251224"
+        },
+        {
           "CveID": "CVE-2023-54022",
           "Cvss3": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
           "Cwe": "CWE-772",
@@ -3450,6 +3468,14 @@
           "Cwe": "CWE-476",
           "Impact": "moderate",
           "Href": "https://access.redhat.com/security/cve/CVE-2023-54028",
+          "Public": "20251224"
+        },
+        {
+          "CveID": "CVE-2023-54031",
+          "Cvss3": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+          "Cwe": "CWE-125",
+          "Impact": "low",
+          "Href": "https://access.redhat.com/security/cve/CVE-2023-54031",
           "Public": "20251224"
         },
         {
@@ -5135,6 +5161,14 @@
         {
           "Href": "https://bugzilla.redhat.com/2424986",
           "ID": "2424986"
+        },
+        {
+          "Href": "https://bugzilla.redhat.com/2424989",
+          "ID": "2424989"
+        },
+        {
+          "Href": "https://bugzilla.redhat.com/2424991",
+          "ID": "2424991"
         },
         {
           "Href": "https://bugzilla.redhat.com/2424996",

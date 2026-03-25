@@ -121,14 +121,14 @@
       "Name": "jbcs-httpd24-openssl-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20262673004",
+      "ID": "oval:com.redhat.cve:obj:20262673003",
       "Version": "636",
-      "Name": "jbcs-httpd24-openssl-devel"
+      "Name": "jbcs-httpd24-openssl-perl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20262673005",
       "Version": "636",
-      "Name": "jbcs-httpd24-openssl-perl"
+      "Name": "jbcs-httpd24-openssl-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202627135001",

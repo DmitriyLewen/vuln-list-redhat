@@ -207858,6 +207858,186 @@
       "State": {
         "StateRef": "oval:com.redhat.rhba:ste:20191992002"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "platform-python is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "platform-python-debug is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "platform-python-devel is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-idle is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-libs is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-test is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-tkinter is earlier than 0:3.6.8-39.el8_4.9",
+      "ID": "oval:com.redhat.rhsa:tst:20265221013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20190997007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265221001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libvpx is earlier than 0:1.7.0-10.el8_4.2",
+      "ID": "oval:com.redhat.rhsa:tst:20265323001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20204629001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265323001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gimp is earlier than 2:2.8.22-16.module+el8.4.0+24113+b076e1ca.5",
+      "ID": "oval:com.redhat.rhsa:tst:20265436001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20241007001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265436001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gimp-devel is earlier than 2:2.8.22-16.module+el8.4.0+24113+b076e1ca.5",
+      "ID": "oval:com.redhat.rhsa:tst:20265436003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20241007002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265436001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gimp-devel-tools is earlier than 2:2.8.22-16.module+el8.4.0+24113+b076e1ca.5",
+      "ID": "oval:com.redhat.rhsa:tst:20265436005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20241007003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265436001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gimp-libs is earlier than 2:2.8.22-16.module+el8.4.0+24113+b076e1ca.5",
+      "ID": "oval:com.redhat.rhsa:tst:20265436007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20241007004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265436001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "osbuild-composer is earlier than 0:28.7-5.el8_4",
+      "ID": "oval:com.redhat.rhsa:tst:20265461001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20247205001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265461001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "osbuild-composer-core is earlier than 0:28.7-5.el8_4",
+      "ID": "oval:com.redhat.rhsa:tst:20265461003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20247205002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265461001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "osbuild-composer-worker is earlier than 0:28.7-5.el8_4",
+      "ID": "oval:com.redhat.rhsa:tst:20265461005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20247205003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20265461001"
+      }
     }
   ],
   "RpmverifyfileTests": [

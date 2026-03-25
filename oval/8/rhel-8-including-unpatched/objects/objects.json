@@ -6,6 +6,11 @@
       "Name": "tar"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:200610002001",
+      "Version": "636",
+      "Name": "perl-XML-Parser"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20074559001",
       "Version": "636",
       "Name": "python2-test"
@@ -3556,6 +3561,26 @@
       "Name": "podman-tests"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:201925544001",
+      "Version": "636",
+      "Name": "pidgin-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201925544002",
+      "Version": "636",
+      "Name": "libpurple"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201925544003",
+      "Version": "636",
+      "Name": "libpurple-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201925544004",
+      "Version": "636",
+      "Name": "pidgin"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20193859001",
       "Version": "636",
       "Name": "libssh2-docs"
@@ -4916,41 +4941,6 @@
       "Name": "qt5-qtbase-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202025219001",
-      "Version": "636",
-      "Name": "python3-libproxy"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202025219002",
-      "Version": "636",
-      "Name": "libproxy-webkitgtk4"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202025219003",
-      "Version": "636",
-      "Name": "libproxy-networkmanager"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202025219004",
-      "Version": "636",
-      "Name": "libproxy-bin"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202025219005",
-      "Version": "636",
-      "Name": "libproxy-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202025219006",
-      "Version": "636",
-      "Name": "libproxy-gnome"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202025219007",
-      "Version": "636",
-      "Name": "libproxy"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202025559001",
       "Version": "636",
       "Name": "gnuplot-doc"
@@ -5318,12 +5308,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202036242001",
       "Version": "636",
-      "Name": "python-cryptography"
+      "Name": "python3-cryptography"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202036242002",
       "Version": "636",
-      "Name": "python3-cryptography"
+      "Name": "python-cryptography"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202036774001",
@@ -5446,22 +5436,22 @@
       "Name": "postgresql-debugsource"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202123343001",
+      "Version": "636",
+      "Name": "nodejs-libs"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202123343003",
       "Version": "636",
       "Name": "v8-12.4-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202123343005",
+      "ID": "oval:com.redhat.cve:obj:202123343007",
       "Version": "636",
       "Name": "v8-13.6-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202123343007",
-      "Version": "636",
-      "Name": "nodejs-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202123343009",
+      "ID": "oval:com.redhat.cve:obj:202123343008",
       "Version": "636",
       "Name": "nodejs-packaging-bundler"
     },
@@ -7346,31 +7336,6 @@
       "Name": "cogl"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20213800001",
-      "Version": "636",
-      "Name": "mingw64-glib2-static"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20213800002",
-      "Version": "636",
-      "Name": "mingw64-glib2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20213800003",
-      "Version": "636",
-      "Name": "mingw-glib2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20213800004",
-      "Version": "636",
-      "Name": "mingw32-glib2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20213800005",
-      "Version": "636",
-      "Name": "mingw32-glib2-static"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20213839001",
       "Version": "636",
       "Name": "dpdk-tools"
@@ -8326,26 +8291,6 @@
       "Name": "frr-selinux"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202226491001",
-      "Version": "636",
-      "Name": "libpurple"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202226491002",
-      "Version": "636",
-      "Name": "pidgin-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202226491003",
-      "Version": "636",
-      "Name": "pidgin"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202226491004",
-      "Version": "636",
-      "Name": "libpurple-devel"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202226491005",
       "Version": "636",
       "Name": "pidgin-debugsource"
@@ -8436,7 +8381,7 @@
       "Name": "python3-jwt"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202230629034",
+      "ID": "oval:com.redhat.cve:obj:202230629033",
       "Version": "636",
       "Name": "conmon"
     },
@@ -9476,7 +9421,7 @@
       "Name": "gawk"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202345287020",
+      "ID": "oval:com.redhat.cve:obj:202345287028",
       "Version": "636",
       "Name": "delve"
     },
@@ -9494,11 +9439,6 @@
       "ID": "oval:com.redhat.cve:obj:202345322003",
       "Version": "636",
       "Name": "libxml2-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202345803007",
-      "Version": "636",
-      "Name": "python3.12-urllib3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202347466001",
@@ -10546,19 +10486,19 @@
       "Name": "elfutils-libelf"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202428180003",
+      "ID": "oval:com.redhat.cve:obj:202428180001",
       "Version": "636",
-      "Name": "jose"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202428180004",
-      "Version": "636",
-      "Name": "libjose-devel"
+      "Name": "libjose"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202428180006",
       "Version": "636",
-      "Name": "libjose"
+      "Name": "jose"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202428180007",
+      "Version": "636",
+      "Name": "libjose-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202429038001",
@@ -10584,6 +10524,31 @@
       "ID": "oval:com.redhat.cve:obj:202434064050",
       "Version": "636",
       "Name": "python3-jinja2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202434397001",
+      "Version": "636",
+      "Name": "mingw64-glib2-static"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202434397002",
+      "Version": "636",
+      "Name": "mingw64-glib2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202434397003",
+      "Version": "636",
+      "Name": "mingw32-glib2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202434397004",
+      "Version": "636",
+      "Name": "mingw32-glib2-static"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202434397005",
+      "Version": "636",
+      "Name": "mingw-glib2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202435195002",
@@ -10691,7 +10656,7 @@
       "Name": "perl-CPAN-DistnameInfo"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202445336002",
+      "ID": "oval:com.redhat.cve:obj:202445336017",
       "Version": "636",
       "Name": "rhc"
     },
@@ -10911,7 +10876,7 @@
       "Name": "python2-setuptools-wheel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20246485004",
+      "ID": "oval:com.redhat.cve:obj:20246485001",
       "Version": "636",
       "Name": "dotnet5.0-build-reference-packages"
     },
@@ -12778,17 +12743,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20259301002",
       "Version": "636",
-      "Name": "cmake-gui"
+      "Name": "cmake-doc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20259301003",
       "Version": "636",
-      "Name": "cmake-doc"
+      "Name": "cmake-filesystem"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20259301004",
       "Version": "636",
-      "Name": "cmake-filesystem"
+      "Name": "cmake-gui"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20259301005",
@@ -12981,7 +12946,17 @@
       "Name": "tracker-miners"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202621441046",
+      "ID": "oval:com.redhat.cve:obj:20261940001",
+      "Version": "636",
+      "Name": "gstreamer1-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20261940002",
+      "Version": "636",
+      "Name": "gstreamer1"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202621441008",
       "Version": "636",
       "Name": "rhel8/gcc-toolset-15-toolchain"
     },
@@ -13161,51 +13136,6 @@
       "Name": "mingw32-freetype-static"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202623893001",
-      "Version": "636",
-      "Name": "opencryptoki"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893002",
-      "Version": "636",
-      "Name": "opencryptoki-tpmtok"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893003",
-      "Version": "636",
-      "Name": "opencryptoki-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893004",
-      "Version": "636",
-      "Name": "opencryptoki-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893005",
-      "Version": "636",
-      "Name": "opencryptoki-swtok"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893006",
-      "Version": "636",
-      "Name": "opencryptoki-ep11tok"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893007",
-      "Version": "636",
-      "Name": "opencryptoki-icsftok"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893008",
-      "Version": "636",
-      "Name": "opencryptoki-icatok"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202623893009",
-      "Version": "636",
-      "Name": "opencryptoki-ccatok"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202624400001",
       "Version": "636",
       "Name": "assertj-core"
@@ -13291,71 +13221,6 @@
       "Name": "fence-agents-nutanix-ahv"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202626131001",
-      "Version": "636",
-      "Name": "dotnet-sdk-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131002",
-      "Version": "636",
-      "Name": "dotnet-sdk-10.0-source-built-artifacts"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131003",
-      "Version": "636",
-      "Name": "dotnet-hostfxr-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131004",
-      "Version": "636",
-      "Name": "dotnet-sdk-aot-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131005",
-      "Version": "636",
-      "Name": "aspnetcore-targeting-pack-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131006",
-      "Version": "636",
-      "Name": "dotnet-targeting-pack-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131007",
-      "Version": "636",
-      "Name": "aspnetcore-runtime-dbg-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131008",
-      "Version": "636",
-      "Name": "aspnetcore-runtime-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131009",
-      "Version": "636",
-      "Name": "dotnet-sdk-dbg-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131010",
-      "Version": "636",
-      "Name": "dotnet-apphost-pack-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131012",
-      "Version": "636",
-      "Name": "dotnet-runtime-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131013",
-      "Version": "636",
-      "Name": "dotnet-runtime-dbg-10.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202626131016",
-      "Version": "636",
-      "Name": "dotnet-templates-10.0"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202626996001",
       "Version": "636",
       "Name": "js-uglify"
@@ -13381,19 +13246,19 @@
       "Name": "libnghttp2"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202627171021",
+      "ID": "oval:com.redhat.cve:obj:202627171019",
       "Version": "636",
       "Name": "zlib"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202627171036",
-      "Version": "636",
-      "Name": "zlib-static"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202627171043",
+      "ID": "oval:com.redhat.cve:obj:202627171024",
       "Version": "636",
       "Name": "zlib-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202627171072",
+      "Version": "636",
+      "Name": "zlib-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202627448001",
@@ -13458,52 +13323,1137 @@
     {
       "ID": "oval:com.redhat.cve:obj:202628364001",
       "Version": "636",
-      "Name": "ocaml-camlp4-devel"
+      "Name": "ocaml-labltk-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364002",
       "Version": "636",
-      "Name": "ocaml-runtime"
+      "Name": "ocaml"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364003",
       "Version": "636",
-      "Name": "ocaml"
+      "Name": "ocaml-camlp4-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364004",
       "Version": "636",
-      "Name": "ocaml-compiler-libs"
+      "Name": "ocaml-camlp4"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364005",
       "Version": "636",
-      "Name": "ocaml-labltk-devel"
+      "Name": "ocaml-compiler-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364006",
       "Version": "636",
-      "Name": "ocaml-camlp4"
+      "Name": "ocaml-ocamldoc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364007",
       "Version": "636",
-      "Name": "ocaml-ocamldoc"
+      "Name": "ocaml-labltk"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202628364008",
       "Version": "636",
-      "Name": "ocaml-labltk"
+      "Name": "ocaml-runtime"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20262920002",
+      "ID": "oval:com.redhat.cve:obj:202633554001",
       "Version": "636",
-      "Name": "gstreamer1"
+      "Name": "freeipmi-bmc-watchdog"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20262920003",
+      "ID": "oval:com.redhat.cve:obj:202633554002",
       "Version": "636",
-      "Name": "gstreamer1-devel"
+      "Name": "freeipmi-ipmiseld"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554003",
+      "Version": "636",
+      "Name": "freeipmi-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554004",
+      "Version": "636",
+      "Name": "freeipmi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554005",
+      "Version": "636",
+      "Name": "freeipmi-ipmidetectd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437001",
+      "Version": "636",
+      "Name": "glibc-langpack-pt"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437002",
+      "Version": "636",
+      "Name": "glibc-langpack-raj"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437003",
+      "Version": "636",
+      "Name": "glibc-langpack-hu"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437004",
+      "Version": "636",
+      "Name": "glibc-langpack-ts"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437005",
+      "Version": "636",
+      "Name": "glibc-langpack-de"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437006",
+      "Version": "636",
+      "Name": "glibc-langpack-bo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437007",
+      "Version": "636",
+      "Name": "glibc-langpack-nn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437008",
+      "Version": "636",
+      "Name": "glibc-gconv-extra"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437009",
+      "Version": "636",
+      "Name": "glibc-langpack-mn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437010",
+      "Version": "636",
+      "Name": "glibc-langpack-niu"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437011",
+      "Version": "636",
+      "Name": "glibc-langpack-kab"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437012",
+      "Version": "636",
+      "Name": "glibc-locale-source"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437013",
+      "Version": "636",
+      "Name": "glibc-langpack-pl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437014",
+      "Version": "636",
+      "Name": "glibc-langpack-my"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437015",
+      "Version": "636",
+      "Name": "glibc-langpack-lb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437016",
+      "Version": "636",
+      "Name": "glibc-langpack-hsb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437017",
+      "Version": "636",
+      "Name": "glibc-langpack-sq"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437018",
+      "Version": "636",
+      "Name": "glibc-langpack-nhn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437019",
+      "Version": "636",
+      "Name": "glibc-langpack-st"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437020",
+      "Version": "636",
+      "Name": "glibc-langpack-gez"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437021",
+      "Version": "636",
+      "Name": "glibc-langpack-fo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437022",
+      "Version": "636",
+      "Name": "glibc-langpack-bem"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437023",
+      "Version": "636",
+      "Name": "glibc-langpack-csb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437024",
+      "Version": "636",
+      "Name": "glibc-langpack-mk"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437025",
+      "Version": "636",
+      "Name": "glibc-langpack-he"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437026",
+      "Version": "636",
+      "Name": "glibc-langpack-ja"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437027",
+      "Version": "636",
+      "Name": "glibc-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437028",
+      "Version": "636",
+      "Name": "glibc-langpack-ml"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437029",
+      "Version": "636",
+      "Name": "glibc-langpack-nr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437030",
+      "Version": "636",
+      "Name": "glibc-langpack-zu"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437031",
+      "Version": "636",
+      "Name": "glibc-langpack-ast"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437032",
+      "Version": "636",
+      "Name": "glibc-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437033",
+      "Version": "636",
+      "Name": "glibc-langpack-bi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437034",
+      "Version": "636",
+      "Name": "glibc-langpack-hy"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437035",
+      "Version": "636",
+      "Name": "glibc-langpack-kl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437036",
+      "Version": "636",
+      "Name": "glibc-langpack-mag"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437037",
+      "Version": "636",
+      "Name": "glibc-langpack-ht"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437038",
+      "Version": "636",
+      "Name": "glibc-langpack-br"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437039",
+      "Version": "636",
+      "Name": "glibc-langpack-uk"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437040",
+      "Version": "636",
+      "Name": "glibc-langpack-ia"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437041",
+      "Version": "636",
+      "Name": "glibc-langpack-cmn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437042",
+      "Version": "636",
+      "Name": "glibc-minimal-langpack"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437043",
+      "Version": "636",
+      "Name": "glibc-langpack-lzh"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437044",
+      "Version": "636",
+      "Name": "nscd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437045",
+      "Version": "636",
+      "Name": "glibc-langpack-shs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437046",
+      "Version": "636",
+      "Name": "glibc-langpack-kw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437047",
+      "Version": "636",
+      "Name": "glibc-headers"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437048",
+      "Version": "636",
+      "Name": "glibc-langpack-mhr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437049",
+      "Version": "636",
+      "Name": "glibc-langpack-ber"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437050",
+      "Version": "636",
+      "Name": "glibc-langpack-so"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437051",
+      "Version": "636",
+      "Name": "glibc-langpack-hak"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437052",
+      "Version": "636",
+      "Name": "glibc-langpack-crh"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437053",
+      "Version": "636",
+      "Name": "glibc-langpack-en"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437054",
+      "Version": "636",
+      "Name": "glibc-langpack-is"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437055",
+      "Version": "636",
+      "Name": "glibc-langpack-bg"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437056",
+      "Version": "636",
+      "Name": "glibc-langpack-lo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437057",
+      "Version": "636",
+      "Name": "glibc-langpack-si"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437058",
+      "Version": "636",
+      "Name": "glibc-langpack-lij"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437059",
+      "Version": "636",
+      "Name": "glibc-langpack-or"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437060",
+      "Version": "636",
+      "Name": "glibc-langpack-ak"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437061",
+      "Version": "636",
+      "Name": "glibc-langpack-tt"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437062",
+      "Version": "636",
+      "Name": "glibc-langpack-pa"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437063",
+      "Version": "636",
+      "Name": "glibc-langpack-be"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437064",
+      "Version": "636",
+      "Name": "glibc-langpack-gd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437065",
+      "Version": "636",
+      "Name": "glibc-langpack-os"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437066",
+      "Version": "636",
+      "Name": "glibc-langpack-ku"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437067",
+      "Version": "636",
+      "Name": "glibc-langpack-nso"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437068",
+      "Version": "636",
+      "Name": "glibc-langpack-dsb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437069",
+      "Version": "636",
+      "Name": "glibc-langpack-mt"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437070",
+      "Version": "636",
+      "Name": "glibc-langpack-az"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437071",
+      "Version": "636",
+      "Name": "glibc-langpack-wal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437072",
+      "Version": "636",
+      "Name": "glibc-langpack-hne"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437073",
+      "Version": "636",
+      "Name": "glibc-langpack-km"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437074",
+      "Version": "636",
+      "Name": "glibc-langpack-quz"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437075",
+      "Version": "636",
+      "Name": "glibc-langpack-dz"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437076",
+      "Version": "636",
+      "Name": "glibc-langpack-mr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437077",
+      "Version": "636",
+      "Name": "glibc-langpack-ur"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437078",
+      "Version": "636",
+      "Name": "glibc-langpack-tpi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437079",
+      "Version": "636",
+      "Name": "glibc-langpack-oc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437080",
+      "Version": "636",
+      "Name": "glibc-langpack-sl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437081",
+      "Version": "636",
+      "Name": "glibc-langpack-sid"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437082",
+      "Version": "636",
+      "Name": "glibc-langpack-sm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437083",
+      "Version": "636",
+      "Name": "glibc-langpack-xh"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437084",
+      "Version": "636",
+      "Name": "glibc-langpack-iu"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437085",
+      "Version": "636",
+      "Name": "glibc-langpack-se"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437086",
+      "Version": "636",
+      "Name": "glibc-langpack-yue"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437087",
+      "Version": "636",
+      "Name": "glibc-langpack-ky"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437088",
+      "Version": "636",
+      "Name": "glibc-langpack-ta"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437089",
+      "Version": "636",
+      "Name": "glibc-langpack-sat"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437090",
+      "Version": "636",
+      "Name": "glibc-langpack-yi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437091",
+      "Version": "636",
+      "Name": "glibc-langpack-wae"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437092",
+      "Version": "636",
+      "Name": "glibc-langpack-ayc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437093",
+      "Version": "636",
+      "Name": "glibc-all-langpacks"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437094",
+      "Version": "636",
+      "Name": "glibc-langpack-kn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437095",
+      "Version": "636",
+      "Name": "glibc-langpack-fi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437096",
+      "Version": "636",
+      "Name": "glibc-langpack-hi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437097",
+      "Version": "636",
+      "Name": "glibc-langpack-fa"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437098",
+      "Version": "636",
+      "Name": "glibc-benchtests"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437099",
+      "Version": "636",
+      "Name": "glibc-langpack-tcy"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437100",
+      "Version": "636",
+      "Name": "glibc-langpack-aa"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437101",
+      "Version": "636",
+      "Name": "glibc-langpack-an"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437102",
+      "Version": "636",
+      "Name": "glibc-langpack-chr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437103",
+      "Version": "636",
+      "Name": "glibc-langpack-sah"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437104",
+      "Version": "636",
+      "Name": "glibc-langpack-af"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437105",
+      "Version": "636",
+      "Name": "glibc-langpack-lt"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437106",
+      "Version": "636",
+      "Name": "glibc-langpack-am"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437107",
+      "Version": "636",
+      "Name": "glibc-langpack-es"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437108",
+      "Version": "636",
+      "Name": "glibc-static"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437109",
+      "Version": "636",
+      "Name": "glibc-langpack-eu"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437110",
+      "Version": "636",
+      "Name": "glibc-langpack-hr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437111",
+      "Version": "636",
+      "Name": "glibc-utils"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437112",
+      "Version": "636",
+      "Name": "glibc-langpack-kok"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437113",
+      "Version": "636",
+      "Name": "glibc-langpack-li"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437114",
+      "Version": "636",
+      "Name": "glibc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437115",
+      "Version": "636",
+      "Name": "glibc-langpack-as"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437116",
+      "Version": "636",
+      "Name": "glibc-langpack-te"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437117",
+      "Version": "636",
+      "Name": "glibc-langpack-ve"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437118",
+      "Version": "636",
+      "Name": "glibc-langpack-rw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437119",
+      "Version": "636",
+      "Name": "glibc-langpack-doi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437120",
+      "Version": "636",
+      "Name": "glibc-langpack-kk"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437121",
+      "Version": "636",
+      "Name": "glibc-langpack-mni"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437122",
+      "Version": "636",
+      "Name": "glibc-langpack-el"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437123",
+      "Version": "636",
+      "Name": "glibc-langpack-yuw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437124",
+      "Version": "636",
+      "Name": "glibc-langpack-ro"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437125",
+      "Version": "636",
+      "Name": "glibc-langpack-ka"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437126",
+      "Version": "636",
+      "Name": "glibc-langpack-ti"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437127",
+      "Version": "636",
+      "Name": "glibc-langpack-nb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437128",
+      "Version": "636",
+      "Name": "glibc-langpack-fr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437129",
+      "Version": "636",
+      "Name": "glibc-langpack-ko"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437130",
+      "Version": "636",
+      "Name": "glibc-langpack-mjw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437131",
+      "Version": "636",
+      "Name": "glibc-langpack-fur"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437132",
+      "Version": "636",
+      "Name": "glibc-langpack-nds"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437133",
+      "Version": "636",
+      "Name": "glibc-langpack-to"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437134",
+      "Version": "636",
+      "Name": "glibc-langpack-unm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437135",
+      "Version": "636",
+      "Name": "glibc-langpack-bs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437136",
+      "Version": "636",
+      "Name": "glibc-langpack-ga"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437137",
+      "Version": "636",
+      "Name": "glibc-langpack-sd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437138",
+      "Version": "636",
+      "Name": "nss_hesiod"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437139",
+      "Version": "636",
+      "Name": "glibc-langpack-lg"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437140",
+      "Version": "636",
+      "Name": "glibc-langpack-ff"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437141",
+      "Version": "636",
+      "Name": "glibc-langpack-gl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437142",
+      "Version": "636",
+      "Name": "glibc-langpack-tn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437143",
+      "Version": "636",
+      "Name": "glibc-langpack-it"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437144",
+      "Version": "636",
+      "Name": "glibc-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437145",
+      "Version": "636",
+      "Name": "glibc-langpack-sa"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437146",
+      "Version": "636",
+      "Name": "nss_db"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437147",
+      "Version": "636",
+      "Name": "glibc-langpack-ne"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437148",
+      "Version": "636",
+      "Name": "glibc-langpack-wo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437149",
+      "Version": "636",
+      "Name": "glibc-langpack-et"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437150",
+      "Version": "636",
+      "Name": "glibc-langpack-miq"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437151",
+      "Version": "636",
+      "Name": "glibc-langpack-the"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437152",
+      "Version": "636",
+      "Name": "glibc-langpack-tl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437153",
+      "Version": "636",
+      "Name": "glibc-langpack-anp"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437154",
+      "Version": "636",
+      "Name": "glibc-langpack-ms"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437155",
+      "Version": "636",
+      "Name": "glibc-langpack-tg"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437156",
+      "Version": "636",
+      "Name": "glibc-langpack-cv"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437157",
+      "Version": "636",
+      "Name": "glibc-langpack-ig"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437158",
+      "Version": "636",
+      "Name": "glibc-langpack-bhb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437159",
+      "Version": "636",
+      "Name": "glibc-langpack-sw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437160",
+      "Version": "636",
+      "Name": "glibc-langpack-mi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437161",
+      "Version": "636",
+      "Name": "glibc-langpack-da"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437162",
+      "Version": "636",
+      "Name": "glibc-langpack-sc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437163",
+      "Version": "636",
+      "Name": "glibc-langpack-sk"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437164",
+      "Version": "636",
+      "Name": "glibc-langpack-sgs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437165",
+      "Version": "636",
+      "Name": "glibc-langpack-shn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437166",
+      "Version": "636",
+      "Name": "glibc-langpack-mfe"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437167",
+      "Version": "636",
+      "Name": "glibc-langpack-bho"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437168",
+      "Version": "636",
+      "Name": "glibc-langpack-pap"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437169",
+      "Version": "636",
+      "Name": "glibc-langpack-nl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437170",
+      "Version": "636",
+      "Name": "glibc-langpack-ha"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437171",
+      "Version": "636",
+      "Name": "glibc-langpack-mg"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437172",
+      "Version": "636",
+      "Name": "glibc-langpack-dv"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437173",
+      "Version": "636",
+      "Name": "glibc-langpack-gu"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437174",
+      "Version": "636",
+      "Name": "glibc-langpack-ik"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437175",
+      "Version": "636",
+      "Name": "glibc-langpack-ar"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437176",
+      "Version": "636",
+      "Name": "glibc-langpack-id"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437177",
+      "Version": "636",
+      "Name": "glibc-langpack-sr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437178",
+      "Version": "636",
+      "Name": "glibc-langpack-lv"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437179",
+      "Version": "636",
+      "Name": "glibc-langpack-ln"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437180",
+      "Version": "636",
+      "Name": "glibc-langpack-hif"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437181",
+      "Version": "636",
+      "Name": "glibc-langpack-ks"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437182",
+      "Version": "636",
+      "Name": "glibc-langpack-byn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437183",
+      "Version": "636",
+      "Name": "glibc-langpack-tk"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437184",
+      "Version": "636",
+      "Name": "glibc-langpack-brx"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437185",
+      "Version": "636",
+      "Name": "glibc-langpack-ps"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437186",
+      "Version": "636",
+      "Name": "glibc-langpack-mai"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437187",
+      "Version": "636",
+      "Name": "glibc-langpack-agr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437188",
+      "Version": "636",
+      "Name": "glibc-langpack-tig"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437189",
+      "Version": "636",
+      "Name": "glibc-langpack-cy"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437190",
+      "Version": "636",
+      "Name": "glibc-langpack-gv"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437191",
+      "Version": "636",
+      "Name": "glibc-langpack-uz"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437192",
+      "Version": "636",
+      "Name": "compat-libpthread-nonshared"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437193",
+      "Version": "636",
+      "Name": "glibc-nss-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437194",
+      "Version": "636",
+      "Name": "glibc-langpack-fy"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437195",
+      "Version": "636",
+      "Name": "glibc-langpack-zh"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437196",
+      "Version": "636",
+      "Name": "glibc-langpack-ss"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437197",
+      "Version": "636",
+      "Name": "glibc-langpack-nan"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437198",
+      "Version": "636",
+      "Name": "glibc-langpack-bn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437199",
+      "Version": "636",
+      "Name": "glibc-langpack-ce"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437200",
+      "Version": "636",
+      "Name": "libnsl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437201",
+      "Version": "636",
+      "Name": "glibc-langpack-th"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437202",
+      "Version": "636",
+      "Name": "glibc-langpack-cs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437203",
+      "Version": "636",
+      "Name": "glibc-langpack-om"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437204",
+      "Version": "636",
+      "Name": "glibc-langpack-eo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437205",
+      "Version": "636",
+      "Name": "glibc-langpack-tr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437206",
+      "Version": "636",
+      "Name": "glibc-langpack-sv"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437207",
+      "Version": "636",
+      "Name": "glibc-langpack-vi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437208",
+      "Version": "636",
+      "Name": "glibc-langpack-wa"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437209",
+      "Version": "636",
+      "Name": "glibc-langpack-szl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437210",
+      "Version": "636",
+      "Name": "glibc-langpack-yo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437211",
+      "Version": "636",
+      "Name": "glibc-langpack-ca"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437212",
+      "Version": "636",
+      "Name": "glibc-langpack-fil"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437213",
+      "Version": "636",
+      "Name": "glibc-langpack-ug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20264437214",
+      "Version": "636",
+      "Name": "glibc-langpack-ru"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20192715001",
@@ -13961,6 +14911,51 @@
       "Name": "softhsm-devel"
     },
     {
+      "ID": "oval:com.redhat.rhba:obj:20213054001",
+      "Version": "636",
+      "Name": "opencryptoki"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054002",
+      "Version": "636",
+      "Name": "opencryptoki-ccatok"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054003",
+      "Version": "636",
+      "Name": "opencryptoki-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054004",
+      "Version": "636",
+      "Name": "opencryptoki-ep11tok"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054005",
+      "Version": "636",
+      "Name": "opencryptoki-icatok"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054006",
+      "Version": "636",
+      "Name": "opencryptoki-icsftok"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054007",
+      "Version": "636",
+      "Name": "opencryptoki-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054008",
+      "Version": "636",
+      "Name": "opencryptoki-swtok"
+    },
+    {
+      "ID": "oval:com.redhat.rhba:obj:20213054009",
+      "Version": "636",
+      "Name": "opencryptoki-tpmtok"
+    },
+    {
       "ID": "oval:com.redhat.rhba:obj:20220348005",
       "Version": "635",
       "Name": "container-selinux"
@@ -14069,6 +15064,41 @@
       "ID": "oval:com.redhat.rhea:obj:20233850007",
       "Version": "637",
       "Name": "libkadm5"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852001",
+      "Version": "636",
+      "Name": "libproxy"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852002",
+      "Version": "636",
+      "Name": "libproxy-bin"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852003",
+      "Version": "636",
+      "Name": "libproxy-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852004",
+      "Version": "636",
+      "Name": "libproxy-gnome"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852005",
+      "Version": "636",
+      "Name": "libproxy-networkmanager"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852006",
+      "Version": "636",
+      "Name": "libproxy-webkitgtk4"
+    },
+    {
+      "ID": "oval:com.redhat.rhea:obj:20248852007",
+      "Version": "636",
+      "Name": "python3-libproxy"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20190972001",
@@ -14674,1066 +15704,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20193497001",
       "Version": "637",
       "Name": "http-parser"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513001",
-      "Version": "637",
-      "Name": "compat-libpthread-nonshared"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513002",
-      "Version": "637",
-      "Name": "glibc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513003",
-      "Version": "637",
-      "Name": "glibc-all-langpacks"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513004",
-      "Version": "637",
-      "Name": "glibc-benchtests"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513005",
-      "Version": "637",
-      "Name": "glibc-common"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513006",
-      "Version": "637",
-      "Name": "glibc-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513007",
-      "Version": "637",
-      "Name": "glibc-headers"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513008",
-      "Version": "637",
-      "Name": "glibc-langpack-aa"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513009",
-      "Version": "637",
-      "Name": "glibc-langpack-af"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513010",
-      "Version": "637",
-      "Name": "glibc-langpack-agr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513011",
-      "Version": "637",
-      "Name": "glibc-langpack-ak"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513012",
-      "Version": "637",
-      "Name": "glibc-langpack-am"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513013",
-      "Version": "637",
-      "Name": "glibc-langpack-an"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513014",
-      "Version": "637",
-      "Name": "glibc-langpack-anp"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513015",
-      "Version": "637",
-      "Name": "glibc-langpack-ar"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513016",
-      "Version": "637",
-      "Name": "glibc-langpack-as"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513017",
-      "Version": "637",
-      "Name": "glibc-langpack-ast"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513018",
-      "Version": "637",
-      "Name": "glibc-langpack-ayc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513019",
-      "Version": "637",
-      "Name": "glibc-langpack-az"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513020",
-      "Version": "637",
-      "Name": "glibc-langpack-be"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513021",
-      "Version": "637",
-      "Name": "glibc-langpack-bem"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513022",
-      "Version": "637",
-      "Name": "glibc-langpack-ber"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513023",
-      "Version": "637",
-      "Name": "glibc-langpack-bg"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513024",
-      "Version": "637",
-      "Name": "glibc-langpack-bhb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513025",
-      "Version": "637",
-      "Name": "glibc-langpack-bho"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513026",
-      "Version": "637",
-      "Name": "glibc-langpack-bi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513027",
-      "Version": "637",
-      "Name": "glibc-langpack-bn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513028",
-      "Version": "637",
-      "Name": "glibc-langpack-bo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513029",
-      "Version": "637",
-      "Name": "glibc-langpack-br"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513030",
-      "Version": "637",
-      "Name": "glibc-langpack-brx"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513031",
-      "Version": "637",
-      "Name": "glibc-langpack-bs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513032",
-      "Version": "637",
-      "Name": "glibc-langpack-byn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513033",
-      "Version": "637",
-      "Name": "glibc-langpack-ca"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513034",
-      "Version": "637",
-      "Name": "glibc-langpack-ce"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513035",
-      "Version": "637",
-      "Name": "glibc-langpack-chr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513036",
-      "Version": "637",
-      "Name": "glibc-langpack-cmn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513037",
-      "Version": "637",
-      "Name": "glibc-langpack-crh"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513038",
-      "Version": "637",
-      "Name": "glibc-langpack-cs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513039",
-      "Version": "637",
-      "Name": "glibc-langpack-csb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513040",
-      "Version": "637",
-      "Name": "glibc-langpack-cv"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513041",
-      "Version": "637",
-      "Name": "glibc-langpack-cy"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513042",
-      "Version": "637",
-      "Name": "glibc-langpack-da"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513043",
-      "Version": "637",
-      "Name": "glibc-langpack-de"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513044",
-      "Version": "637",
-      "Name": "glibc-langpack-doi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513045",
-      "Version": "637",
-      "Name": "glibc-langpack-dsb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513046",
-      "Version": "637",
-      "Name": "glibc-langpack-dv"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513047",
-      "Version": "637",
-      "Name": "glibc-langpack-dz"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513048",
-      "Version": "637",
-      "Name": "glibc-langpack-el"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513049",
-      "Version": "637",
-      "Name": "glibc-langpack-en"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513050",
-      "Version": "637",
-      "Name": "glibc-langpack-eo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513051",
-      "Version": "637",
-      "Name": "glibc-langpack-es"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513052",
-      "Version": "637",
-      "Name": "glibc-langpack-et"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513053",
-      "Version": "637",
-      "Name": "glibc-langpack-eu"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513054",
-      "Version": "637",
-      "Name": "glibc-langpack-fa"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513055",
-      "Version": "637",
-      "Name": "glibc-langpack-ff"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513056",
-      "Version": "637",
-      "Name": "glibc-langpack-fi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513057",
-      "Version": "637",
-      "Name": "glibc-langpack-fil"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513058",
-      "Version": "637",
-      "Name": "glibc-langpack-fo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513059",
-      "Version": "637",
-      "Name": "glibc-langpack-fr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513060",
-      "Version": "637",
-      "Name": "glibc-langpack-fur"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513061",
-      "Version": "637",
-      "Name": "glibc-langpack-fy"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513062",
-      "Version": "637",
-      "Name": "glibc-langpack-ga"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513063",
-      "Version": "637",
-      "Name": "glibc-langpack-gd"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513064",
-      "Version": "637",
-      "Name": "glibc-langpack-gez"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513065",
-      "Version": "637",
-      "Name": "glibc-langpack-gl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513066",
-      "Version": "637",
-      "Name": "glibc-langpack-gu"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513067",
-      "Version": "637",
-      "Name": "glibc-langpack-gv"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513068",
-      "Version": "637",
-      "Name": "glibc-langpack-ha"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513069",
-      "Version": "637",
-      "Name": "glibc-langpack-hak"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513070",
-      "Version": "637",
-      "Name": "glibc-langpack-he"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513071",
-      "Version": "637",
-      "Name": "glibc-langpack-hi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513072",
-      "Version": "637",
-      "Name": "glibc-langpack-hif"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513073",
-      "Version": "637",
-      "Name": "glibc-langpack-hne"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513074",
-      "Version": "637",
-      "Name": "glibc-langpack-hr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513075",
-      "Version": "637",
-      "Name": "glibc-langpack-hsb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513076",
-      "Version": "637",
-      "Name": "glibc-langpack-ht"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513077",
-      "Version": "637",
-      "Name": "glibc-langpack-hu"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513078",
-      "Version": "637",
-      "Name": "glibc-langpack-hy"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513079",
-      "Version": "637",
-      "Name": "glibc-langpack-ia"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513080",
-      "Version": "637",
-      "Name": "glibc-langpack-id"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513081",
-      "Version": "637",
-      "Name": "glibc-langpack-ig"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513082",
-      "Version": "637",
-      "Name": "glibc-langpack-ik"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513083",
-      "Version": "637",
-      "Name": "glibc-langpack-is"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513084",
-      "Version": "637",
-      "Name": "glibc-langpack-it"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513085",
-      "Version": "637",
-      "Name": "glibc-langpack-iu"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513086",
-      "Version": "637",
-      "Name": "glibc-langpack-ja"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513087",
-      "Version": "637",
-      "Name": "glibc-langpack-ka"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513088",
-      "Version": "637",
-      "Name": "glibc-langpack-kab"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513089",
-      "Version": "637",
-      "Name": "glibc-langpack-kk"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513090",
-      "Version": "637",
-      "Name": "glibc-langpack-kl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513091",
-      "Version": "637",
-      "Name": "glibc-langpack-km"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513092",
-      "Version": "637",
-      "Name": "glibc-langpack-kn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513093",
-      "Version": "637",
-      "Name": "glibc-langpack-ko"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513094",
-      "Version": "637",
-      "Name": "glibc-langpack-kok"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513095",
-      "Version": "637",
-      "Name": "glibc-langpack-ks"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513096",
-      "Version": "637",
-      "Name": "glibc-langpack-ku"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513097",
-      "Version": "637",
-      "Name": "glibc-langpack-kw"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513098",
-      "Version": "637",
-      "Name": "glibc-langpack-ky"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513099",
-      "Version": "637",
-      "Name": "glibc-langpack-lb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513100",
-      "Version": "637",
-      "Name": "glibc-langpack-lg"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513101",
-      "Version": "637",
-      "Name": "glibc-langpack-li"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513102",
-      "Version": "637",
-      "Name": "glibc-langpack-lij"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513103",
-      "Version": "637",
-      "Name": "glibc-langpack-ln"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513104",
-      "Version": "637",
-      "Name": "glibc-langpack-lo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513105",
-      "Version": "637",
-      "Name": "glibc-langpack-lt"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513106",
-      "Version": "637",
-      "Name": "glibc-langpack-lv"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513107",
-      "Version": "637",
-      "Name": "glibc-langpack-lzh"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513108",
-      "Version": "637",
-      "Name": "glibc-langpack-mag"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513109",
-      "Version": "637",
-      "Name": "glibc-langpack-mai"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513110",
-      "Version": "637",
-      "Name": "glibc-langpack-mfe"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513111",
-      "Version": "637",
-      "Name": "glibc-langpack-mg"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513112",
-      "Version": "637",
-      "Name": "glibc-langpack-mhr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513113",
-      "Version": "637",
-      "Name": "glibc-langpack-mi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513114",
-      "Version": "637",
-      "Name": "glibc-langpack-miq"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513115",
-      "Version": "637",
-      "Name": "glibc-langpack-mjw"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513116",
-      "Version": "637",
-      "Name": "glibc-langpack-mk"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513117",
-      "Version": "637",
-      "Name": "glibc-langpack-ml"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513118",
-      "Version": "637",
-      "Name": "glibc-langpack-mn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513119",
-      "Version": "637",
-      "Name": "glibc-langpack-mni"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513120",
-      "Version": "637",
-      "Name": "glibc-langpack-mr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513121",
-      "Version": "637",
-      "Name": "glibc-langpack-ms"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513122",
-      "Version": "637",
-      "Name": "glibc-langpack-mt"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513123",
-      "Version": "637",
-      "Name": "glibc-langpack-my"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513124",
-      "Version": "637",
-      "Name": "glibc-langpack-nan"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513125",
-      "Version": "637",
-      "Name": "glibc-langpack-nb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513126",
-      "Version": "637",
-      "Name": "glibc-langpack-nds"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513127",
-      "Version": "637",
-      "Name": "glibc-langpack-ne"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513128",
-      "Version": "637",
-      "Name": "glibc-langpack-nhn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513129",
-      "Version": "637",
-      "Name": "glibc-langpack-niu"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513130",
-      "Version": "637",
-      "Name": "glibc-langpack-nl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513131",
-      "Version": "637",
-      "Name": "glibc-langpack-nn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513132",
-      "Version": "637",
-      "Name": "glibc-langpack-nr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513133",
-      "Version": "637",
-      "Name": "glibc-langpack-nso"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513134",
-      "Version": "637",
-      "Name": "glibc-langpack-oc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513135",
-      "Version": "637",
-      "Name": "glibc-langpack-om"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513136",
-      "Version": "637",
-      "Name": "glibc-langpack-or"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513137",
-      "Version": "637",
-      "Name": "glibc-langpack-os"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513138",
-      "Version": "637",
-      "Name": "glibc-langpack-pa"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513139",
-      "Version": "637",
-      "Name": "glibc-langpack-pap"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513140",
-      "Version": "637",
-      "Name": "glibc-langpack-pl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513141",
-      "Version": "637",
-      "Name": "glibc-langpack-ps"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513142",
-      "Version": "637",
-      "Name": "glibc-langpack-pt"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513143",
-      "Version": "637",
-      "Name": "glibc-langpack-quz"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513144",
-      "Version": "637",
-      "Name": "glibc-langpack-raj"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513145",
-      "Version": "637",
-      "Name": "glibc-langpack-ro"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513146",
-      "Version": "637",
-      "Name": "glibc-langpack-ru"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513147",
-      "Version": "637",
-      "Name": "glibc-langpack-rw"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513148",
-      "Version": "637",
-      "Name": "glibc-langpack-sa"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513149",
-      "Version": "637",
-      "Name": "glibc-langpack-sah"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513150",
-      "Version": "637",
-      "Name": "glibc-langpack-sat"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513151",
-      "Version": "637",
-      "Name": "glibc-langpack-sc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513152",
-      "Version": "637",
-      "Name": "glibc-langpack-sd"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513153",
-      "Version": "637",
-      "Name": "glibc-langpack-se"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513154",
-      "Version": "637",
-      "Name": "glibc-langpack-sgs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513155",
-      "Version": "637",
-      "Name": "glibc-langpack-shn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513156",
-      "Version": "637",
-      "Name": "glibc-langpack-shs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513157",
-      "Version": "637",
-      "Name": "glibc-langpack-si"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513158",
-      "Version": "637",
-      "Name": "glibc-langpack-sid"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513159",
-      "Version": "637",
-      "Name": "glibc-langpack-sk"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513160",
-      "Version": "637",
-      "Name": "glibc-langpack-sl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513161",
-      "Version": "637",
-      "Name": "glibc-langpack-sm"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513162",
-      "Version": "637",
-      "Name": "glibc-langpack-so"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513163",
-      "Version": "637",
-      "Name": "glibc-langpack-sq"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513164",
-      "Version": "637",
-      "Name": "glibc-langpack-sr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513165",
-      "Version": "637",
-      "Name": "glibc-langpack-ss"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513166",
-      "Version": "637",
-      "Name": "glibc-langpack-st"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513167",
-      "Version": "637",
-      "Name": "glibc-langpack-sv"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513168",
-      "Version": "637",
-      "Name": "glibc-langpack-sw"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513169",
-      "Version": "637",
-      "Name": "glibc-langpack-szl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513170",
-      "Version": "637",
-      "Name": "glibc-langpack-ta"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513171",
-      "Version": "637",
-      "Name": "glibc-langpack-tcy"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513172",
-      "Version": "637",
-      "Name": "glibc-langpack-te"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513173",
-      "Version": "637",
-      "Name": "glibc-langpack-tg"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513174",
-      "Version": "637",
-      "Name": "glibc-langpack-th"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513175",
-      "Version": "637",
-      "Name": "glibc-langpack-the"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513176",
-      "Version": "637",
-      "Name": "glibc-langpack-ti"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513177",
-      "Version": "637",
-      "Name": "glibc-langpack-tig"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513178",
-      "Version": "637",
-      "Name": "glibc-langpack-tk"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513179",
-      "Version": "637",
-      "Name": "glibc-langpack-tl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513180",
-      "Version": "637",
-      "Name": "glibc-langpack-tn"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513181",
-      "Version": "637",
-      "Name": "glibc-langpack-to"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513182",
-      "Version": "637",
-      "Name": "glibc-langpack-tpi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513183",
-      "Version": "637",
-      "Name": "glibc-langpack-tr"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513184",
-      "Version": "637",
-      "Name": "glibc-langpack-ts"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513185",
-      "Version": "637",
-      "Name": "glibc-langpack-tt"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513186",
-      "Version": "637",
-      "Name": "glibc-langpack-ug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513187",
-      "Version": "637",
-      "Name": "glibc-langpack-uk"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513188",
-      "Version": "637",
-      "Name": "glibc-langpack-unm"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513189",
-      "Version": "637",
-      "Name": "glibc-langpack-ur"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513190",
-      "Version": "637",
-      "Name": "glibc-langpack-uz"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513191",
-      "Version": "637",
-      "Name": "glibc-langpack-ve"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513192",
-      "Version": "637",
-      "Name": "glibc-langpack-vi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513193",
-      "Version": "637",
-      "Name": "glibc-langpack-wa"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513194",
-      "Version": "637",
-      "Name": "glibc-langpack-wae"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513195",
-      "Version": "637",
-      "Name": "glibc-langpack-wal"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513196",
-      "Version": "637",
-      "Name": "glibc-langpack-wo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513197",
-      "Version": "637",
-      "Name": "glibc-langpack-xh"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513198",
-      "Version": "637",
-      "Name": "glibc-langpack-yi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513199",
-      "Version": "637",
-      "Name": "glibc-langpack-yo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513200",
-      "Version": "637",
-      "Name": "glibc-langpack-yue"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513201",
-      "Version": "637",
-      "Name": "glibc-langpack-yuw"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513202",
-      "Version": "637",
-      "Name": "glibc-langpack-zh"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513203",
-      "Version": "637",
-      "Name": "glibc-langpack-zu"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513204",
-      "Version": "637",
-      "Name": "glibc-locale-source"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513205",
-      "Version": "637",
-      "Name": "glibc-minimal-langpack"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513206",
-      "Version": "637",
-      "Name": "glibc-nss-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513207",
-      "Version": "637",
-      "Name": "glibc-static"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513208",
-      "Version": "637",
-      "Name": "glibc-utils"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513209",
-      "Version": "637",
-      "Name": "libnsl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513210",
-      "Version": "637",
-      "Name": "nscd"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513211",
-      "Version": "637",
-      "Name": "nss_db"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20193513212",
-      "Version": "637",
-      "Name": "nss_hesiod"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193525001",
@@ -20536,16 +20506,6 @@
       "Name": "dmidecode"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20235455007",
-      "Version": "639",
-      "Name": "glibc-doc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20235455008",
-      "Version": "639",
-      "Name": "glibc-gconv-extra"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20235928001",
       "Version": "637",
       "Name": "tomcat"
@@ -22029,6 +21989,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20248834001",
       "Version": "639",
       "Name": "python3-gevent"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20248842001",
+      "Version": "639",
+      "Name": "python3.12-urllib3"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20248922001",
@@ -24401,6 +24366,71 @@
       "Name": "python3-pyasn1-modules"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20264458001",
+      "Version": "644",
+      "Name": "aspnetcore-runtime-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458002",
+      "Version": "644",
+      "Name": "aspnetcore-runtime-dbg-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458003",
+      "Version": "644",
+      "Name": "aspnetcore-targeting-pack-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458005",
+      "Version": "644",
+      "Name": "dotnet-apphost-pack-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458007",
+      "Version": "644",
+      "Name": "dotnet-hostfxr-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458008",
+      "Version": "644",
+      "Name": "dotnet-runtime-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458009",
+      "Version": "644",
+      "Name": "dotnet-runtime-dbg-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458010",
+      "Version": "644",
+      "Name": "dotnet-sdk-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458011",
+      "Version": "644",
+      "Name": "dotnet-sdk-10.0-source-built-artifacts"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458012",
+      "Version": "644",
+      "Name": "dotnet-sdk-aot-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458013",
+      "Version": "644",
+      "Name": "dotnet-sdk-dbg-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458014",
+      "Version": "644",
+      "Name": "dotnet-targeting-pack-10.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20264458015",
+      "Version": "644",
+      "Name": "dotnet-templates-10.0"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:20052991001",
       "Version": "635",
       "Name": "ncompress"
@@ -25541,49 +25571,49 @@
       "Name": "dotnet3.0"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:202011023003",
+      "Version": "635",
+      "Name": "mpdecimal-doc"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202011023006",
       "Version": "635",
       "Name": "mpdecimal-devel"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202011023015",
-      "Version": "635",
-      "Name": "python-sphinx-locale"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202011023016",
-      "Version": "635",
-      "Name": "python-coverage"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202011023018",
+      "ID": "oval:com.redhat.unaffected:obj:202011023007",
       "Version": "635",
       "Name": "mpdecimal++"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202011023037",
+      "ID": "oval:com.redhat.unaffected:obj:202011023024",
       "Version": "635",
-      "Name": "python3-sphinx"
+      "Name": "python-sphinx-locale"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202011023049",
+      "ID": "oval:com.redhat.unaffected:obj:202011023041",
       "Version": "635",
       "Name": "python-sphinx-latex"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202011023053",
+      "ID": "oval:com.redhat.unaffected:obj:202011023042",
       "Version": "635",
-      "Name": "mpdecimal"
+      "Name": "python-coverage"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202011023055",
+      "ID": "oval:com.redhat.unaffected:obj:202011023054",
       "Version": "635",
-      "Name": "mpdecimal-doc"
+      "Name": "python3-sphinx"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202011023071",
+      "ID": "oval:com.redhat.unaffected:obj:202011023058",
       "Version": "635",
       "Name": "cockpit-session-recording"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202011023067",
+      "Version": "635",
+      "Name": "mpdecimal"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202014354007",
@@ -26176,17 +26206,17 @@
       "Name": "libgsf-devel"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20246345002",
-      "Version": "635",
-      "Name": "python3.11-setuptools-rust"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20246345003",
+      "ID": "oval:com.redhat.unaffected:obj:20246345001",
       "Version": "635",
       "Name": "python3.12-setuptools-rust"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20246345009",
+      "ID": "oval:com.redhat.unaffected:obj:20246345005",
+      "Version": "635",
+      "Name": "python3.11-setuptools-rust"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20246345008",
       "Version": "635",
       "Name": "python-setuptools_scm"
     },
@@ -26209,6 +26239,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202515523003",
       "Version": "635",
       "Name": "inkscape1"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202529927033",
+      "Version": "635",
+      "Name": "dotnet10.0"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202548071003",
@@ -26701,11 +26736,11 @@
       "ID": "oval:com.redhat.cve:obj:202036242003",
       "Version": "636",
       "Filepath": {
-        "Text": "/etc/dnf/modules.d/python39.module",
+        "Text": "/etc/dnf/modules.d/python38.module",
         "Datatype": "string"
       },
       "Pattern": {
-        "Text": "\\[python39\\][\\w\\W]*",
+        "Text": "\\[python38\\][\\w\\W]*",
         "Operation": "pattern match"
       },
       "Instance": {
@@ -26717,11 +26752,11 @@
       "ID": "oval:com.redhat.cve:obj:202036242004",
       "Version": "636",
       "Filepath": {
-        "Text": "/etc/dnf/modules.d/python38.module",
+        "Text": "/etc/dnf/modules.d/python39.module",
         "Datatype": "string"
       },
       "Pattern": {
-        "Text": "\\[python38\\][\\w\\W]*",
+        "Text": "\\[python39\\][\\w\\W]*",
         "Operation": "pattern match"
       },
       "Instance": {
@@ -26826,7 +26861,7 @@
       }
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20213800007",
+      "ID": "oval:com.redhat.cve:obj:20213800002",
       "Version": "636",
       "Filepath": {
         "Text": "/etc/dnf/modules.d/firefox.module",
@@ -26938,7 +26973,7 @@
       }
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202523282017",
+      "ID": "oval:com.redhat.cve:obj:202523282016",
       "Version": "636",
       "Filepath": {
         "Text": "/etc/dnf/modules.d/virt-devel.module",
@@ -27002,7 +27037,7 @@
       }
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20263494017",
+      "ID": "oval:com.redhat.cve:obj:202632710017",
       "Version": "636",
       "Filepath": {
         "Text": "/etc/dnf/modules.d/mariadb-devel.module",

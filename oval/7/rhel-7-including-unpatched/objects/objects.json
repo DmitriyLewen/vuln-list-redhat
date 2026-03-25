@@ -16,14 +16,19 @@
       "Name": "tar"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:200610002001",
+      "Version": "636",
+      "Name": "perl-XML-Parser"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:200620001001",
       "Version": "636",
-      "Name": "httpd-devel"
+      "Name": "httpd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:200620001002",
       "Version": "636",
-      "Name": "httpd-manual"
+      "Name": "mod_ssl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:200620001003",
@@ -38,22 +43,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:200620001005",
       "Version": "636",
-      "Name": "mod_session"
+      "Name": "httpd-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:200620001006",
       "Version": "636",
-      "Name": "mod_ssl"
+      "Name": "httpd-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:200620001007",
       "Version": "636",
-      "Name": "httpd"
+      "Name": "httpd-manual"
     },
     {
       "ID": "oval:com.redhat.cve:obj:200620001008",
       "Version": "636",
-      "Name": "httpd-tools"
+      "Name": "mod_session"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20074559001",
@@ -13488,12 +13493,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202120206001",
       "Version": "636",
-      "Name": "containernetworking-plugins"
+      "Name": "buildah"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202120206002",
       "Version": "636",
-      "Name": "buildah"
+      "Name": "containernetworking-plugins"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202120266009",
@@ -14888,12 +14893,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202240149001",
       "Version": "636",
-      "Name": "jettison"
+      "Name": "jettison-javadoc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240149002",
       "Version": "636",
-      "Name": "jettison-javadoc"
+      "Name": "jettison"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240152001",
@@ -15353,12 +15358,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20240914001",
       "Version": "636",
-      "Name": "opencryptoki-devel"
+      "Name": "opencryptoki"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240914002",
       "Version": "636",
-      "Name": "opencryptoki-swtok"
+      "Name": "opencryptoki-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240914003",
@@ -15368,12 +15373,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20240914004",
       "Version": "636",
-      "Name": "opencryptoki-ccatok"
+      "Name": "opencryptoki-icatok"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240914005",
       "Version": "636",
-      "Name": "opencryptoki-ep11tok"
+      "Name": "opencryptoki-icsftok"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240914006",
@@ -15383,17 +15388,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20240914007",
       "Version": "636",
-      "Name": "opencryptoki-icatok"
+      "Name": "opencryptoki-ep11tok"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240914008",
       "Version": "636",
-      "Name": "opencryptoki"
+      "Name": "opencryptoki-ccatok"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240914009",
       "Version": "636",
-      "Name": "opencryptoki-icsftok"
+      "Name": "opencryptoki-swtok"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202410041001",
@@ -15483,17 +15488,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20241394001",
       "Version": "636",
-      "Name": "host-metering"
+      "Name": "host-metering-selinux"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20241394002",
       "Version": "636",
-      "Name": "host-metering-selinux"
+      "Name": "rhc-worker-script"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20241394003",
       "Version": "636",
-      "Name": "rhc-worker-script"
+      "Name": "host-metering"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20242314001",
@@ -16354,6 +16359,31 @@
       "ID": "oval:com.redhat.cve:obj:202625727002",
       "Version": "636",
       "Name": "time"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554001",
+      "Version": "636",
+      "Name": "freeipmi-bmc-watchdog"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554002",
+      "Version": "636",
+      "Name": "freeipmi-ipmiseld"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554003",
+      "Version": "636",
+      "Name": "freeipmi-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554004",
+      "Version": "636",
+      "Name": "freeipmi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633554005",
+      "Version": "636",
+      "Name": "freeipmi-ipmidetectd"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20150364008",
@@ -20934,31 +20964,6 @@
       "ID": "oval:com.redhat.unaffected:obj:20134509001",
       "Version": "635",
       "Name": "ibus-chewing"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20134786001",
-      "Version": "635",
-      "Name": "freeipmi-devel"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20134786005",
-      "Version": "635",
-      "Name": "freeipmi"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20134786007",
-      "Version": "635",
-      "Name": "freeipmi-bmc-watchdog"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20134786008",
-      "Version": "635",
-      "Name": "freeipmi-ipmiseld"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20134786011",
-      "Version": "635",
-      "Name": "freeipmi-ipmidetectd"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20134885001",
