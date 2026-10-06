@@ -4540,6 +4540,174 @@
     },
     {
       "Check": "at least one",
+      "Comment": "nfs-ganesha-rgw is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-rgw is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-vfs is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-vfs is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516004",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-ceph is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-ceph is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-selinux is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-selinux is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516008",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-rados-grace is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-rados-grace is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-rados-urls is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-rados-urls is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516014",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-proxy is installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nfs-ganesha-proxy is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:2026105516016",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20203003006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "python2-webob is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202644889002",
       "Version": "635",

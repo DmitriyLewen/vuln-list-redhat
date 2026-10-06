@@ -1651,17 +1651,17 @@
       "Name": "frr"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202348795013",
+      "ID": "oval:com.redhat.unaffected:obj:202348795001",
       "Version": "635",
       "Name": "ansible-role-network-runner"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202348795014",
+      "ID": "oval:com.redhat.unaffected:obj:202348795004",
       "Version": "635",
       "Name": "ansible-collection-ansible-netcommon"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202348795020",
+      "ID": "oval:com.redhat.unaffected:obj:202348795009",
       "Version": "635",
       "Name": "python3-network-runner"
     },
@@ -1736,14 +1736,14 @@
       "Name": "golang-github-Sirupsen-logrus-devel"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202566418078",
-      "Version": "635",
-      "Name": "rhosp-rhel8/openstack-collectd"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202566418105",
+      "ID": "oval:com.redhat.unaffected:obj:202566418058",
       "Version": "635",
       "Name": "rhosp-rhel8/openstack-base"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202566418069",
+      "Version": "635",
+      "Name": "rhosp-rhel8/openstack-collectd"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202624708001",

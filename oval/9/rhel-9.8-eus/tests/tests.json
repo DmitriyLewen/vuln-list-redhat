@@ -354999,6 +354999,378 @@
     },
     {
       "Check": "at least one",
+      "Comment": "sudo is earlier than 0:1.9.17p2-3.el9_8.3",
+      "ID": "oval:com.redhat.rhsa:tst:202675571001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20230282001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675571001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "sudo-python-plugin is earlier than 0:1.9.17p2-3.el9_8.3",
+      "ID": "oval:com.redhat.rhsa:tst:202675571003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20230282002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675571001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gimp is earlier than 2:3.0.4-4.el9_8.14",
+      "ID": "oval:com.redhat.rhsa:tst:202675575001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227978001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675575001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gimp-libs is earlier than 2:3.0.4-4.el9_8.14",
+      "ID": "oval:com.redhat.rhsa:tst:202675575003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227978002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675575003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18 is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18-chroot is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18-devel is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18-dnssec-utils is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18-doc is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18-libs is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind9.18-utils is earlier than 32:9.18.29-14.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675578013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20251670007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675578001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c is earlier than 0:3.2.6-2.el9_8",
+      "ID": "oval:com.redhat.rhsa:tst:202675673001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675673001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:202675673002",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20223897002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-config is earlier than 0:3.2.6-2.el9_8",
+      "ID": "oval:com.redhat.rhsa:tst:202675673003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675673003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-config is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:202675673004",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20223897002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-devel is earlier than 0:3.2.6-2.el9_8",
+      "ID": "oval:com.redhat.rhsa:tst:202675673005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675673001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:202675673006",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20223897002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-doc is earlier than 0:3.2.6-2.el9_8",
+      "ID": "oval:com.redhat.rhsa:tst:202675673007",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675673003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-doc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:202675673008",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20223897002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-test is earlier than 0:3.2.6-2.el9_8",
+      "ID": "oval:com.redhat.rhsa:tst:202675673009",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675673004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:202675673010",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202675673005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20223897002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-chroot is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-devel is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-dnssec-doc is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-dnssec-utils is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-doc is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228068006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-libs is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-license is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bind-utils is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-bind is earlier than 32:9.16.23-40.el9_8.10",
+      "ID": "oval:com.redhat.rhsa:tst:202675767019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226763009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675767004"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "libnghttp2 is earlier than 0:1.43.0-6.el9_7.1",
       "ID": "oval:com.redhat.rhsa:tst:20267668001",
       "Version": "637",

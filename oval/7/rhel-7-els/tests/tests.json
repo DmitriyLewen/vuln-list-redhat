@@ -246864,6 +246864,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "rhc-worker-script is earlier than 0:0.12-1.el7_9",
+      "ID": "oval:com.redhat.rhsa:tst:202675689001",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235835001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675689001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "gstreamer1-plugins-good is earlier than 0:1.10.4-4.el7_9",
       "ID": "oval:com.redhat.rhsa:tst:20267673001",
       "Version": "637",

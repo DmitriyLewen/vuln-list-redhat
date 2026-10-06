@@ -14836,6 +14836,31 @@
       "Name": "libpcap-devel"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:202675673001",
+      "Version": "638",
+      "Name": "mariadb-connector-c"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:202675673002",
+      "Version": "638",
+      "Name": "mariadb-connector-c-config"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:202675673003",
+      "Version": "638",
+      "Name": "mariadb-connector-c-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:202675673004",
+      "Version": "638",
+      "Name": "mariadb-connector-c-doc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:202675673005",
+      "Version": "638",
+      "Name": "mariadb-connector-c-test"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20267679001",
       "Version": "638",
       "Name": "perl-XML-Parser"

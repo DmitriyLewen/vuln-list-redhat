@@ -776,7 +776,7 @@
       "Name": "ose-aws-ecr-image-credential-provider"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795001",
+      "ID": "oval:com.redhat.cve:obj:202348795002",
       "Version": "637",
       "Name": "openshift4/ose-aws-ebs-csi-driver-rhel8"
     },
@@ -846,7 +846,7 @@
       "Name": "openstack-ironic"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202445336003",
+      "ID": "oval:com.redhat.cve:obj:202445336001",
       "Version": "637",
       "Name": "openshift-kuryr"
     },
@@ -3081,12 +3081,12 @@
       "Name": "ovn22.09"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202512816001",
+      "ID": "oval:com.redhat.cve:obj:202512816003",
       "Version": "637",
       "Name": "openshift4/nmstate-console-plugin-rhel9"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202512816002",
+      "ID": "oval:com.redhat.cve:obj:202512816004",
       "Version": "637",
       "Name": "openshift4/ose-networking-console-plugin-rhel9"
     },
@@ -3161,7 +3161,7 @@
       "Name": "openshift4/ose-must-gather-rhel9"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202530204001",
+      "ID": "oval:com.redhat.cve:obj:202530204003",
       "Version": "637",
       "Name": "golang-jwt"
     },
@@ -3266,7 +3266,7 @@
       "Name": "spdlog"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202561726004",
+      "ID": "oval:com.redhat.cve:obj:202561726028",
       "Version": "637",
       "Name": "openshift4/ingress-node-firewall-daemon-rhel9"
     },
@@ -3301,27 +3301,27 @@
       "Name": "topology-aware-lifecycle-manager-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202566418008",
-      "Version": "637",
-      "Name": "openshift4/ose-egress-dns-proxy-rhel9"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202566418012",
+      "ID": "oval:com.redhat.cve:obj:202566418010",
       "Version": "637",
       "Name": "openshift4/ose-egress-http-proxy-rhel9"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202566418016",
+      "ID": "oval:com.redhat.cve:obj:202566418015",
+      "Version": "637",
+      "Name": "openshift4/ose-egress-dns-proxy-rhel9"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202566418018",
       "Version": "637",
       "Name": "openshift4/ose-ironic-static-ip-manager-rhel9"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202566418021",
+      "ID": "oval:com.redhat.cve:obj:202566418024",
       "Version": "637",
       "Name": "openshift4/ose-egress-router-rhel9"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202568121003",
+      "ID": "oval:com.redhat.cve:obj:202568121005",
       "Version": "637",
       "Name": "rh-osbs/openshift-golang-builder"
     },
@@ -3351,17 +3351,17 @@
       "Name": "libreswan"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202615789001",
+      "ID": "oval:com.redhat.cve:obj:202615789007",
       "Version": "637",
       "Name": "openshift-kni/commatrix"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202615789005",
+      "ID": "oval:com.redhat.cve:obj:202615789009",
       "Version": "637",
       "Name": "openshift4/ose-machine-os-images-rhel9"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202615789023",
+      "ID": "oval:com.redhat.cve:obj:202615789015",
       "Version": "637",
       "Name": "openshift4/microshift-bootc-rhel10"
     },
@@ -3503,27 +3503,27 @@
     {
       "ID": "oval:com.redhat.cve:obj:202625681003",
       "Version": "637",
-      "Name": "openshift4/ose-openshift-controller-manager-rhel7"
+      "Name": "openshift3/ose-hyperkube"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681013",
+      "ID": "oval:com.redhat.cve:obj:202625681017",
       "Version": "637",
-      "Name": "openshift3/ose-docker-builder"
+      "Name": "openshift3/ose-tests"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681019",
+      "ID": "oval:com.redhat.cve:obj:202625681020",
+      "Version": "637",
+      "Name": "openshift3/ose-ovn-kubernetes"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202625681021",
       "Version": "637",
       "Name": "openshift4/ose-csi-driver-manila-rhel7"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681026",
+      "ID": "oval:com.redhat.cve:obj:202625681025",
       "Version": "637",
-      "Name": "openshift3/ose-hyperkube"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202625681027",
-      "Version": "637",
-      "Name": "openshift3/ose-operator-lifecycle-manager"
+      "Name": "openshift4/ose-baremetal-installer-rhel7"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202625681028",
@@ -3531,27 +3531,27 @@
       "Name": "openshift4/ose-tools-rhel7"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681030",
+      "ID": "oval:com.redhat.cve:obj:202625681034",
       "Version": "637",
       "Name": "openshift4/ose-sdn-rhel7"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681032",
+      "ID": "oval:com.redhat.cve:obj:202625681058",
       "Version": "637",
-      "Name": "openshift3/ose-ovn-kubernetes"
+      "Name": "openshift3/ose-operator-lifecycle-manager"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681039",
+      "ID": "oval:com.redhat.cve:obj:202625681070",
       "Version": "637",
-      "Name": "openshift4/ose-baremetal-installer-rhel7"
+      "Name": "openshift3/ose-docker-builder"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681053",
+      "ID": "oval:com.redhat.cve:obj:202625681074",
       "Version": "637",
-      "Name": "openshift3/ose-tests"
+      "Name": "openshift4/ose-openshift-controller-manager-rhel7"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202625681077",
+      "ID": "oval:com.redhat.cve:obj:202625681078",
       "Version": "637",
       "Name": "openshift3/ose-cli"
     },
@@ -3571,79 +3571,79 @@
       "Name": "openshift4/ose-node"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633186001",
-      "Version": "637",
-      "Name": "openshift4/ose-olm-operator-controller"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202633186063",
+      "ID": "oval:com.redhat.cve:obj:202633186021",
       "Version": "637",
       "Name": "openshift4/cluster-rhel9-ingress-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633186142",
+      "ID": "oval:com.redhat.cve:obj:202633186103",
       "Version": "637",
       "Name": "openshift4/ose-cluster-olm-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814033",
+      "ID": "oval:com.redhat.cve:obj:202633186104",
       "Version": "637",
-      "Name": "openshift4/topology-aware-lifecycle-manager-recovery-rhel8"
+      "Name": "openshift4/ose-olm-operator-controller"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814059",
+      "ID": "oval:com.redhat.cve:obj:202633814060",
       "Version": "637",
-      "Name": "openshift4/ose-alibaba-cloud-csi-driver-container-rhel8"
+      "Name": "openshift4/ose-cluster-openshift-controller-manager-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814096",
-      "Version": "637",
-      "Name": "openshift4/ose-cluster-etcd-rhel8-operator"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202633814098",
+      "ID": "oval:com.redhat.cve:obj:202633814076",
       "Version": "637",
       "Name": "openshift4/ose-powervs-cloud-controller-manager-rhel8"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202633814110",
       "Version": "637",
-      "Name": "openshift4/ose-cluster-kube-scheduler-operator"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202633814205",
-      "Version": "637",
-      "Name": "openshift4/ose-console-operator"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202633814264",
-      "Version": "637",
-      "Name": "openshift4/ose-prometheus-operator"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202633814274",
-      "Version": "637",
       "Name": "openshift4/ovirt-csi-driver-rhel8"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814310",
+      "ID": "oval:com.redhat.cve:obj:202633814132",
       "Version": "637",
       "Name": "openshift4/topology-aware-lifecycle-manager-rhel8-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814318",
+      "ID": "oval:com.redhat.cve:obj:202633814146",
       "Version": "637",
-      "Name": "openshift4/ose-baremetal-rhel8-operator"
+      "Name": "openshift4/ose-cluster-kube-scheduler-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814398",
+      "ID": "oval:com.redhat.cve:obj:202633814157",
+      "Version": "637",
+      "Name": "openshift4/ose-alibaba-cloud-csi-driver-container-rhel8"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633814170",
       "Version": "637",
       "Name": "ose-crio-credential-provider"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202633814405",
+      "ID": "oval:com.redhat.cve:obj:202633814210",
       "Version": "637",
-      "Name": "openshift4/ose-cluster-openshift-controller-manager-operator"
+      "Name": "openshift4/ose-baremetal-rhel8-operator"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633814247",
+      "Version": "637",
+      "Name": "openshift4/ose-prometheus-operator"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633814253",
+      "Version": "637",
+      "Name": "openshift4/topology-aware-lifecycle-manager-recovery-rhel8"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633814302",
+      "Version": "637",
+      "Name": "openshift4/ose-console-operator"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202633814361",
+      "Version": "637",
+      "Name": "openshift4/ose-cluster-etcd-rhel8-operator"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202634956001",
@@ -3926,19 +3926,19 @@
       "Name": "ovn23.09"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202566418113",
+      "ID": "oval:com.redhat.unaffected:obj:202566418043",
       "Version": "635",
-      "Name": "openshift4/ose-pod-rhel9"
+      "Name": "openshift4/ose-cluster-update-keys-rhel9"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202566418187",
+      "ID": "oval:com.redhat.unaffected:obj:202566418126",
       "Version": "635",
       "Name": "openshift4/ose-keepalived-ipfailover-rhel9"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202566418213",
+      "ID": "oval:com.redhat.unaffected:obj:202566418171",
       "Version": "635",
-      "Name": "openshift4/ose-cluster-update-keys-rhel9"
+      "Name": "openshift4/ose-pod-rhel9"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202617106002",
@@ -3951,7 +3951,7 @@
       "Name": "python-redis"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202633186063",
+      "ID": "oval:com.redhat.unaffected:obj:202633186025",
       "Version": "635",
       "Name": "openshift4/origin-oauth-proxy"
     },

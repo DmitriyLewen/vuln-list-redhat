@@ -459258,6 +459258,594 @@
     },
     {
       "Check": "at least one",
+      "Comment": "mariadb-connector-c is earlier than 0:3.1.11-3.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675674001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20205503001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675674001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-config is earlier than 0:3.1.11-3.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675674003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20205503002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675674003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-connector-c-devel is earlier than 0:3.1.11-3.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675674005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20205503003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675674001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gd is earlier than 0:2.2.5-8.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675680001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20204659001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675680001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gd-devel is earlier than 0:2.2.5-8.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675680003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20204659002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675680001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-core is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-debug is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-debug-core is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-debug-devel is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-debug-kvm is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-debug-modules is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-debug-modules-extra is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-devel is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-kvm is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-modules is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746021",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt-modules-extra is earlier than 0:4.18.0-553.171.1.rt7.512.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675746023",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191174012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "bpftool is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-abi-stablelists is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20211578003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-core is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-debug is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-debug-core is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-debug-devel is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-debug-modules is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-debug-modules-extra is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-devel is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-doc is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747021",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-modules is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747023",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-modules-extra is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747025",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-tools is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747027",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-tools-libs is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747029",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-tools-libs-devel is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747031",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-zfcpdump is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747033",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-zfcpdump-core is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747035",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-zfcpdump-devel is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747037",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-zfcpdump-modules is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747039",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-zfcpdump-modules-extra is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747041",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "perf is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747043",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-perf is earlier than 0:4.18.0-553.171.1.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202675747045",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675747001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs is earlier than 1:22.23.2-2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhea:obj:20200330001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-devel is earlier than 1:22.23.2-2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhea:obj:20200330002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-docs is earlier than 1:22.23.2-2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhea:obj:20200330003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-full-i18n is earlier than 1:22.23.2-2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhea:obj:20225139004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-libs is earlier than 1:22.23.2-2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202511803005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "npm is earlier than 1:10.9.8-1.22.23.2.2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhea:obj:20200330006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "v8-12.4-devel is earlier than 3:12.4.254.21-1.22.23.2.2.module+el8.10.0+24957+74108fbf",
+      "ID": "oval:com.redhat.rhsa:tst:202675870019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:202511803010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675870007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libpcap is earlier than 14:1.9.1-6.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202676045001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20204547001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202676045001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libpcap-devel is earlier than 14:1.9.1-6.el8_10",
+      "ID": "oval:com.redhat.rhsa:tst:202676045003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20204547002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202676045001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "libnghttp2 is earlier than 0:1.33.0-6.el8_10.2",
       "ID": "oval:com.redhat.rhsa:tst:20267667001",
       "Version": "637",
@@ -465046,6 +465634,18 @@
     },
     {
       "Check": "all",
+      "Comment": "kernel-rt earlier than 0:4.18.0-553.171.1.rt7.512.el8_10 is set to boot up on next boot",
+      "ID": "oval:com.redhat.rhsa:tst:202675746026",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167025"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746004"
+      }
+    },
+    {
+      "Check": "all",
       "Comment": "kernel earlier than 0:4.18.0-553.120.1.el8_10 is set to boot up on next boot",
       "ID": "oval:com.redhat.rhsa:tst:20269131048",
       "Version": "638",
@@ -467336,6 +467936,18 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:202674132003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel-rt earlier than 0:4.18.0-553.171.1.rt7.512.el8_10 is currently running",
+      "ID": "oval:com.redhat.rhsa:tst:202675746025",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191167024"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:202675746003"
       }
     },
     {

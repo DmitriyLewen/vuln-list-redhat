@@ -10891,6 +10891,11 @@
       "Name": "perl-Storable"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:201720285001",
+      "Version": "637",
+      "Name": "perl-YAML"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20172591001",
       "Version": "637",
       "Name": "389-ds-base-snmp"

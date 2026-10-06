@@ -69815,6 +69815,21 @@
       "SignatureKeyID": {}
     },
     {
+      "ID": "oval:com.redhat.rhsa:ste:202675689001",
+      "Version": "639",
+      "Arch": {
+        "Text": "x86_64",
+        "Datatype": "string",
+        "Operation": "equals"
+      },
+      "Evr": {
+        "Text": "0:0.12-1.el7_9",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
       "ID": "oval:com.redhat.rhsa:ste:20267673003",
       "Version": "637",
       "Arch": {},

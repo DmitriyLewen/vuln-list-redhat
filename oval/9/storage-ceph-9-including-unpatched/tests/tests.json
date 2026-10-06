@@ -2060,6 +2060,17 @@
         "ObjectRef": "oval:com.redhat.cve:obj:202445338001"
       },
       "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "liborc1 is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202691777006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202619032013"
+      },
+      "State": {}
     }
   ],
   "RpmverifyfileTests": [

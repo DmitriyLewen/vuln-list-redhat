@@ -4029,6 +4029,17 @@
     },
     {
       "Check": "at least one",
+      "Comment": "liborc1 is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202691777002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202619032011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "rhceph/rhceph-8-rhel9 is not installed",
       "ID": "oval:com.redhat.unaffected:tst:20269375002",
       "Version": "635",
