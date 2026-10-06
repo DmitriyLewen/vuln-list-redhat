@@ -34323,20 +34323,20 @@
     {
       "Check": "at least one",
       "Comment": "gvisor-tap-vsock-gvforwarder is installed",
-      "ID": "oval:com.redhat.cve:tst:202445336003",
+      "ID": "oval:com.redhat.cve:tst:202445336049",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336025"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "gvisor-tap-vsock-gvforwarder is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202445336004",
+      "ID": "oval:com.redhat.cve:tst:202445336050",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336025"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -34345,20 +34345,20 @@
     {
       "Check": "at least one",
       "Comment": "gvisor-tap-vsock is installed",
-      "ID": "oval:com.redhat.cve:tst:202445336047",
+      "ID": "oval:com.redhat.cve:tst:202445336051",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "gvisor-tap-vsock is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202445336048",
+      "ID": "oval:com.redhat.cve:tst:202445336052",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -49502,21 +49502,241 @@
     },
     {
       "Check": "at least one",
-      "Comment": "easymock is installed",
-      "ID": "oval:com.redhat.cve:tst:2026104721001",
+      "Comment": "guice-bom is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:2026104721001"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-bom is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711002",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-assistedinject is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-assistedinject is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711004",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-parent is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-parent is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711006",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-jmx is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-jmx is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711008",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-servlet is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-servlet is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711010",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "google-guice-javadoc is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "google-guice-javadoc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711012",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-extensions is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-extensions is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711016",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-grapher is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-grapher is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711018",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-jndi is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-jndi is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711020",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-throwingproviders is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104711021",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "guice-throwingproviders is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:2026104711022",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "easymock is installed",
+      "ID": "oval:com.redhat.cve:tst:2026104721003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104721002"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "easymock is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:2026104721002",
+      "ID": "oval:com.redhat.cve:tst:2026104721004",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:2026104721001"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104721002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -68906,6 +69126,28 @@
     },
     {
       "Check": "at least one",
+      "Comment": "jackson-core is installed",
+      "ID": "oval:com.redhat.cve:tst:202668494001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202668494001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jackson-core is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202668494002",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202668494001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "pki-jackson-core is installed",
       "ID": "oval:com.redhat.cve:tst:202668494007",
       "Version": "637",
@@ -68921,28 +69163,6 @@
       "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202668494004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "jackson-core is installed",
-      "ID": "oval:com.redhat.cve:tst:202668494009",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202668494005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "jackson-core is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202668494010",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202668494005"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -175980,7 +176200,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20243830001",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20243830001"
@@ -180540,7 +180760,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20244379001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20244379001"
@@ -193295,7 +193515,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20246187001",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20246187001"
@@ -263981,7 +264201,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20253833001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20253833001"
@@ -273737,7 +273957,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20257416001",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20257416001"
@@ -273749,7 +273969,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20257416003",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336025"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20257416001"
@@ -285041,7 +285261,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20259150001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20259150001"
@@ -285053,7 +285273,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20259150003",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336025"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20259150001"
@@ -431117,7 +431337,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336025"
       },
       "State": {}
     },
@@ -431128,7 +431348,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336026"
       },
       "State": {}
     },
@@ -432831,6 +433051,17 @@
     },
     {
       "Check": "at least one",
+      "Comment": "resteasy is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202512543002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202658063004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "libcap is installed",
       "ID": "oval:com.redhat.unaffected:tst:20251390001",
       "Version": "635",
@@ -432901,17 +433132,6 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202412224008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "resteasy is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202514813010",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202658063004"
       },
       "State": {}
     },
@@ -436540,7 +436760,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202668494005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202668494001"
       },
       "State": {}
     },
@@ -437122,32 +437342,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "guice-grapher is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "guice-grapher is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202647888004",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-servlet is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888003"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711009"
       },
       "State": {}
     },
@@ -437158,17 +437358,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-throwingproviders is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888007",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888004"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711005"
       },
       "State": {}
     },
@@ -437179,17 +437369,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-jndi is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888017",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888009"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711011"
       },
       "State": {}
     },
@@ -437200,17 +437380,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888009"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-bom is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888021",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888011"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711010"
       },
       "State": {}
     },
@@ -437221,17 +437391,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888011"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-parent is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888025",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888013"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711001"
       },
       "State": {}
     },
@@ -437242,17 +437402,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888013"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-extensions is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888027",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888014"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711003"
       },
       "State": {}
     },
@@ -437263,17 +437413,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888014"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-assistedinject is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888029",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888015"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711008"
       },
       "State": {}
     },
@@ -437284,17 +437424,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888015"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "google-guice-javadoc is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888031",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888016"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711002"
       },
       "State": {}
     },
@@ -437305,17 +437435,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888016"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "guice-jmx is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202647888033",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888017"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711006"
       },
       "State": {}
     },
@@ -437326,7 +437446,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202647888017"
+        "ObjectRef": "oval:com.redhat.cve:obj:2026104711004"
       },
       "State": {}
     },
@@ -437375,30 +437495,8 @@
     },
     {
       "Check": "at least one",
-      "Comment": "pki-jackson-jaxrs-providers is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202650193026",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241854001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pki-jackson-module-jaxb-annotations is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202650193032",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202548924036"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "pki-jackson-jaxrs-json-provider is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202650193042",
+      "ID": "oval:com.redhat.unaffected:tst:202650193014",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -437408,8 +437506,30 @@
     },
     {
       "Check": "at least one",
+      "Comment": "pki-jackson-module-jaxb-annotations is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202650193016",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202548924036"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jackson-jaxrs-providers is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202650193020",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202241854002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "jackson-modules-base is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202650193050",
+      "ID": "oval:com.redhat.unaffected:tst:202650193030",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -437419,12 +437539,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "jackson-jaxrs-providers is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202650193054",
+      "Comment": "pki-jackson-jaxrs-providers is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202650193056",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241854002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241854001"
       },
       "State": {}
     },

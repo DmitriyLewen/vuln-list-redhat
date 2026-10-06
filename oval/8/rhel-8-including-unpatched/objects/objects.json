@@ -10371,7 +10371,7 @@
       "Name": "python3-openipmi"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202445336007",
+      "ID": "oval:com.redhat.cve:obj:202445336019",
       "Version": "637",
       "Name": "rhc"
     },
@@ -13106,7 +13106,67 @@
       "Name": "sssd-ldap"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:2026104721001",
+      "ID": "oval:com.redhat.cve:obj:2026104711001",
+      "Version": "637",
+      "Name": "guice-bom"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711002",
+      "Version": "637",
+      "Name": "guice-assistedinject"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711003",
+      "Version": "637",
+      "Name": "guice-parent"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711004",
+      "Version": "637",
+      "Name": "guice-testlib"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711005",
+      "Version": "637",
+      "Name": "guice-jmx"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711006",
+      "Version": "637",
+      "Name": "guice-servlet"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711007",
+      "Version": "637",
+      "Name": "google-guice-javadoc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711009",
+      "Version": "637",
+      "Name": "guice-multibindings"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711010",
+      "Version": "637",
+      "Name": "guice-extensions"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711011",
+      "Version": "637",
+      "Name": "guice-grapher"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711012",
+      "Version": "637",
+      "Name": "guice-jndi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104711013",
+      "Version": "637",
+      "Name": "guice-throwingproviders"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:2026104721002",
       "Version": "637",
       "Name": "sisu-javadoc"
     },
@@ -23444,66 +23504,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20259318118",
       "Version": "637",
       "Name": "glassfish-servlet-api-javadoc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318120",
-      "Version": "637",
-      "Name": "google-guice-javadoc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318124",
-      "Version": "637",
-      "Name": "guice-assistedinject"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318125",
-      "Version": "637",
-      "Name": "guice-bom"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318126",
-      "Version": "637",
-      "Name": "guice-extensions"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318127",
-      "Version": "637",
-      "Name": "guice-grapher"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318128",
-      "Version": "637",
-      "Name": "guice-jmx"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318129",
-      "Version": "637",
-      "Name": "guice-jndi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318130",
-      "Version": "637",
-      "Name": "guice-multibindings"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318131",
-      "Version": "637",
-      "Name": "guice-parent"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318132",
-      "Version": "637",
-      "Name": "guice-servlet"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318133",
-      "Version": "637",
-      "Name": "guice-testlib"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20259318134",
-      "Version": "637",
-      "Name": "guice-throwingproviders"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20259318135",
